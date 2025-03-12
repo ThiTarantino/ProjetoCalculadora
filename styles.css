@@ -1,3 +1,44 @@
+.button{
+    
+}
+button{
+    
+    background-color: rgb(255, 255, 255);
+    color: rgb(25, 123, 180);
+    height: 50px;
+    width: 45px;
+    
+    
+}
+.coluna2{
+    margin-right: px ;
+}
+.oi button{
+    
+    width: 94px;
+}
+.oi2 button{
+    
+    margin-left: 4px;
+}
+.oi3{
+    margin-left: 4px;
+}
+.alinhado{
+    display:flex;
+    flex-direction: row;
+}
 .teste{
-    background-color: rgb(25, 180, 134);
+    padding-left: 20px;
+    background-color: rgb(174, 221, 240);
+    width: 210px;
+    height: 350px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.resultado{
+    background-color: rgb(122, 122, 122);
+    text-align: right;
+    width: 150px;
+    height: 50px;
 }
