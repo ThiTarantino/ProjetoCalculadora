@@ -50,7 +50,7 @@ button:hover{
     text-align: center;
 }
 .circulo{
-    background: radial-gradient(circle, #2980b9, #67bcf5);
+    background: radial-gradient(circle, #2980b9, #77c3f5);
     
     position: absolute;
     top: 50%;  
