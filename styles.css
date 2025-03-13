@@ -1,47 +1,63 @@
 
 body{
-    background-image: linear-gradient(45deg,black,rgb(165, 217, 252));
+    background-image: linear-gradient(45deg,rgb(244, 246, 248),rgb(173, 222, 245));
     border-radius: 100%;
     height: 100vh;
     width: 100%;
-    color: aliceblue;
+    color: rgb(13, 13, 14);
     font-family: Arial, Helvetica, sans-serif
     
     
 }
 .corpo{
     position: absolute;
-    background-color:rgba(134, 204, 250, 0.596);
-   top: 50%;
+    background-color:rgba(252, 252, 252, 0.596);
+    background: linear-gradient(to bottom, rgba(252, 252, 252, 0.897), rgba(252, 252, 252, 0.363));
+    background: radial-gradient(circle, rgba(0, 88, 146, 0.288), rgb(252, 252, 252));
+    top: 50%;
    left: 50%;
    transform: translate(-50%,-50%);
    border-radius: 30px;
    padding: 15px;
    
 }
+#botao1{
+    background: radial-gradient(circle, rgba(27, 147, 245, 0.473), rgba(177, 218, 252, 0.473));
+}
+#botao2{ 
+    background: radial-gradient(circle, rgba(5, 38, 80, 0.473), rgba(88, 180, 255, 0.473));
+}
 button{
+    
     margin: 3px;
     width: 50px;
     height: 50px;
     border-radius: 15px;
     border: none;
-    box-shadow: 2px 5px black;
+    box-shadow: 2px 5px rgba(0, 0, 0, 0.473);
     font-size: 25px;
     cursor: pointer;
-    background-color: rgb(213, 216, 216);
+    background-color: rgba(213, 216, 216, 0.473);
     color: white;
 }
 button:hover{
     background-color: rgb(61, 59, 59);
 }
+#botao1:hover {
+    background: radial-gradient(circle, rgba(27, 147, 245, 0.7), rgba(177, 218, 252, 0.7)); /* Alterando o gradiente do botão 1 */
+}
+#botao2:hover {
+    background: radial-gradient(circle, rgba(0, 42, 77, 0.7), rgba(0, 145, 255, 0.7)); /* Alterando o gradiente do botão 1 */
+}
 .texto{
+    color: black;
     height: 50px;
     font-size: 25px;
     padding: 10px;
     text-align:end;
 }
 .texto2{
-   
+   color: black;
     font-size: 25px;
     padding: 10px;
     text-align:end;
@@ -50,7 +66,7 @@ button:hover{
     text-align: center;
 }
 .circulo{
-    background: radial-gradient(circle, #2980b9, #77c3f5);
+    background: radial-gradient(circle, rgb(0, 88, 146), rgb(156, 212, 250));
     
     position: absolute;
     top: 50%;  
